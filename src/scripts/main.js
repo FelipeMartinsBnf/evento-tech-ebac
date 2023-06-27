@@ -2,17 +2,19 @@ AOS.init();
 
 //Pegar o Mês e ano da maquina para o evento sempre estar em contagem regressiva
 const date = new Date()
-const month = date.getMonth() + 2;
-const year = date.getFullYear();
-
-const dataEvento = new Date(`${month} 10, ${year} 16:00:00`);
+const year = date.getFullYear()+1;
+//Calcular a minha idade
+const Age = (year - 2005);
+const dataEvento = new Date(`4 3, ${year} 0:00:00`);
 
 //Alterar a data no header do evento
-document.getElementById('data').innerHTML=`10/${month}/${year}`;
-
+document.getElementById('data').innerHTML=`3/4/${year}`;
+//Alterar a minha idade
+document.getElementById('idade').innerHTML=Age
 
 const TimeStampEvent = dataEvento.getTime();
 
+//Contagem regressiva
 const CountTime = setInterval(function(){
     const now = new Date();
     const TimeStamp = now.getTime();

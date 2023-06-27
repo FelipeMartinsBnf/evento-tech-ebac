@@ -1,19 +1,13 @@
 @use '../var';
 
-.event{
+.info{
     padding: 80px 0;
 
-    &--frontend{
-        background-image: linear-gradient( var.$lgBlue, var.$dkblue);
+    &--geral{
+        background-image: linear-gradient( #181110, var.$dkblue);
     }
-    &--ux-ui{
+    &--local{
         background-image: linear-gradient( var.$dkblue, var.$dkpink);
-    }
-    &--data-science{
-        background-image: linear-gradient( var.$dkpink, var.$yellow);
-    }
-    &--backend{
-        background-image: linear-gradient( var.$yellow, var.$dkpink);
     }
 
     &--image-left{
@@ -39,6 +33,7 @@
     }
     &__img{
         max-width: 360px;
+        border-radius: 8px;
     }
 
     @media (max-width:640px){

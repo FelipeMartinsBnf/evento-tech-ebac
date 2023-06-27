@@ -1,7 +1,7 @@
 .hero{
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
+    background-image: url(../images/gift-1420830_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     position: relative;
@@ -22,15 +22,16 @@
     }
 
 
-    &__logo{
+    &__emoji{
         margin: 0 auto;
-        height: 80px;
+        font-size: 72px;
         display: block;
+        text-align: center;
     }
     &__text{
         margin-top: 64px;
         margin-bottom: 64px;
-
+        font-family: 'Poppins', sans-serif;
         font-size: 40px;
         line-height: 56px;
         font-weight: 800;

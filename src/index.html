@@ -6,79 +6,51 @@
     <title>EBAC Tech Talks</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img src="images/ebac_logo.svg" class="hero__logo" alt="EBAC">
+            <span class="hero__emoji">🎂</span>
             <p class="hero__text">
-                O maior evento de Tecnologia do brasil começa em 
-                <span id="contador"></span>
+                🎉 Venha comemorar o meu aniversário de <span id="idade"></span> Anos<br>
+                Faltam apenas
+                <span id="contador"></span>!
                 <div class="infos-bar">
                     <ul class="infos-bar__infos">
                         <li class="infos-bar__infos__item">
                             <b>Localização</b>
-                            Allianz Parque - Barra funda - São paulo
-                        </li>
-                        <li class="infos-bar__infos__item">
-                            <b>Preço</b>
-                            A partir de R$120,00
+                             --------
                         </li>
                         <li class="infos-bar__infos__item">
                             <b>Quando</b>
-                            <span id="data">asd</span> às 16h
+                            🕛 <span id="data"></span> às 16h
                         </li>
                     </ul>
-                    <a href="#" class="btn btn--primary">Garanta já a sua vaga</a>
+                    <a href="#" class="btn btn--primary">Garantir presença</a>
                 </div>
             </p>
         </div>
     </header>
-    <section class="event event--frontend" >
+    <section class="info info--geral" >
         <div class="container" data-aos="fade-right">
-            <div class="event__details">
-                <h2 class="event__details__title">Front-End</h2>
-                <p class="event__details__desc">Estamos muito animados para anunciar a seção de front-end do Ebac Tech Talks deste ano! Será um dia inteiro dedicado ao desenvolvimento de interfaces web, com palestras de alguns dos melhores profissionais do mercado.<br>
-                    Nossa programação inclui palestras sobre as tendências mais recentes em design de interfaces, técnicas de desenvolvimento front-end e ferramentas para otimizar o processo de criação. Teremos também workshops práticos para que você possa colocar em prática tudo o que aprender.
-                    Se você é um desenvolvedor front-end ou está interessado em aprender mais sobre o assunto, não perca esta oportunidade única de se atualizar e expandir seus conhecimentos.</p>
+            <div class="info__details">
+                <h2 class="info__details__title">Informações</h2>
+                <p class="info__details__desc">A festa será realizada no salão de festas do --- . O salão será decorado com muito bom gosto e sofisticação, para que todos possam desfrutar de uma atmosfera única e inesquecível.<br>
+                    Além disso, teremos um buffet completo com deliciosas opções de comidas e bebidas para todos os gostos. E para animar ainda mais a festa, contaremos com a presença de uma banda ao vivo, que tocará os maiores sucessos da música brasileira e internacional.</p>
             </div>
-            <img src="./images/frontend.png" class="event__img" alt="Front-End" >
         </div>
     </section>
-    <section class="event event--ux-ui event--image-left" >
+    <section class="info info--local" >
         <div class="container" data-aos="fade-left">
-            <div class="event__details">
-                <h2 class="event__details__title">UI/UX</h2>
-                <p class="event__details__desc">Nosso objetivo é fornecer aos participantes uma visão abrangente do mundo da UI/UX e mostrar como essa área é fundamental para o sucesso de qualquer produto digital.
-                    Durante o EBAC Tech Talks, você poderá participar de palestras, workshops e painéis de discussão com alguns dos principais nomes da indústria. Você aprenderá como criar interfaces intuitivas, a importância do design centrado no usuário e como criar experiências digitais excepcionais para seus usuários.<br>
-                    Além disso, você terá a oportunidade de se conectar com outros profissionais da indústria e construir sua rede de contatos.
-                    Se você é um desenvolvedor front-end ou está interessado em aprender mais sobre o assunto, não perca esta oportunidade única de se atualizar e expandir seus conhecimentos.</p>
+            <div class="info__details">
+                <h2 class="info__details__title">Local</h2>
+                <p class="info__details__desc">A festa será realizada no salão de festas do --- . O salão será decorado com muito bom gosto e sofisticação, para que todos possam desfrutar de uma atmosfera única e inesquecível.<br>
+                    Além disso, teremos um buffet completo com deliciosas opções de comidas e bebidas para todos os gostos. E para animar ainda mais a festa, contaremos com a presença de uma banda ao vivo, que tocará os maiores sucessos da música brasileira e internacional.</p>
             </div>
-            <img src="./images/ui-ux.png" class="event__img" alt="Front-End" >
-        </div>
-    </section>
-    <section class="event event--data-science">
-        <div class="container" data-aos="fade-right">
-            <div class="event__details">
-                <h2 class="event__details__title">Data Science</h2>
-                <p class="event__details__desc">Durante a seção de Data Science, os participantes terão a oportunidade de aprender com os melhores profissionais da área, que irão compartilhar suas experiências e insights sobre as últimas tendências e práticas em ciência de dados.<br>
-                    Os temas que serão abordados incluem análise de dados, machine learning, deep learning, big data, visualização de dados e muito mais. Além disso, os participantes terão a chance de participar de discussões interativas e sessões práticas, onde poderão aplicar seus conhecimentos em problemas reais.
-            </div>
-            <img src="./images/data.png" class="event__img" alt="Front-End" >
-        </div>
-    </section>
-    <section class="event event--backend event--image-left">
-        <div class="container" data-aos="fade-left">
-            <div class="event__details">
-                <h2 class="event__details__title">Back-End</h2>
-                <p class="event__details__desc">Para ser um bom desenvolvedor de Backend, é necessário ter conhecimentos em diversas linguagens de programação, como Java, Python, Ruby e PHP, além de entender de bancos de dados e servidores. É uma área que exige muita atenção aos detalhes e uma boa capacidade de resolução de problemas.<br>
-                    No Ebac Tech Talks, você poderá aprender com especialistas em Backend sobre as últimas tendências e tecnologias utilizadas no mercado, além de ter a oportunidade de trocar experiências com outros profissionais da área. Não perca essa chance de se atualizar e aprimorar suas habilidades em Backend!</p>
-            </div>
-            <img src="./images/backend.png" class="event__img" alt="Front-End" >
+            <img src="images/champagne-3515140_1280.jpg" class="info__img" alt="">
         </div>
     </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -1,8 +1,12 @@
 @use '../var';
 
 .infos-bar{
+    width: 70%;
     padding: 16px 24px;
     background-color: var.$txt-color;
+    border-radius: 8px;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: rgba(0, 0, 0, .40);
     display: flex;
     justify-content: space-between;
 
@@ -12,16 +16,10 @@
 
         &__item{
             font-size: 14px;
-            color: var.$txt-color-sec;
 
             b{
-                color: var.$txt-color-sec;
                 font-size: 18px;
                 display: block;
-            }
-
-            span{
-                color: black;
             }
         }
     }
